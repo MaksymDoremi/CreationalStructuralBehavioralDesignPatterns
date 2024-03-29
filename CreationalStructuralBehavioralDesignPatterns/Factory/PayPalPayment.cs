@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CreationalStructuralBehavioralDesignPatterns.Factory
 {
-    internal class PayPalPayment : IPayment
+    public class PayPalPayment : IPayment
     {
         public void Pay(int amount)
         {

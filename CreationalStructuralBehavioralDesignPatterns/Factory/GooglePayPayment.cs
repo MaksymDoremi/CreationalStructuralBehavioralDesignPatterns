@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CreationalStructuralBehavioralDesignPatterns.Factory
 {
-    internal class GooglePayPayment : IPayment
+    public class GooglePayPayment : IPayment
     {
         public void Pay(int amount)
         {
