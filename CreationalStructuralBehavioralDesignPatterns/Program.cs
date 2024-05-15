@@ -9,6 +9,14 @@ namespace Maturita
 {
     public class Program
     {
+        /*
+         * Creational - factory, singleton
+         * 
+         * Structural - facade, proxy
+         * 
+         * Behavioral - command, iterator
+         * 
+         */
         public static void Main(string[] args)
         {
             Console.WriteLine(Singleton.Instance());
